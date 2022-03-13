@@ -53,7 +53,7 @@ jQuery(document).ready(function() {
                             }
                             break;
                         case 2:
-                            title = $this.text().trim();
+                            title = $this.html().trim();
                             break;
                         case 3:
                             photo = $this.html();
